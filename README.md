@@ -1,6 +1,6 @@
 # Angel City Data JavaScript Navigation Menu for FileMaker Pro/Go
 
-*Dynamically Load FileMaker Module / Navigation Records Into a WebViewer*
+*Dynamically Load FileMaker Module Navigation Records Into a WebViewer*
 
 # This Kit
 ## What it does
