@@ -1,0 +1,58 @@
+export const navModules = [
+  {
+    label: 'Dashboard',
+    id: 'dashboard',
+    icon: 'ri-dashboard-line',
+    parent: '',
+    hasChildren: false,
+  },
+  {
+    label: 'Company',
+    id: 'company',
+    icon: 'ri-briefcase-line',
+    parent: '',
+    hasChildren: true,
+  },
+  {
+    label: 'Contact',
+    id: 'contact',
+    icon: 'ri-user-line',
+    parent: '',
+    hasChildren: true,
+  },
+  {
+    label: 'Recently Viewed',
+    id: 'recentlyViewed',
+    icon: '',
+    parent: 'contact',
+    hasChildren: false,
+  },
+  {
+    label: 'My Favorites',
+    id: 'myFavorites',
+    icon: '',
+    parent: 'contact',
+    hasChildren: false,
+  },
+  {
+    label: 'Project',
+    id: 'project',
+    icon: 'ri-hammer-line',
+    parent: '',
+    hasChildren: false,
+  },
+  {
+    label: 'Order',
+    id: 'order',
+    icon: 'ri-shopping-basket-2-line',
+    parent: '',
+    hasChildren: true,
+  },
+  {
+    label: 'Time Card',
+    id: 'timeCard',
+    icon: 'ri-timer-line',
+    parent: '',
+    hasChildren: false,
+  },
+];
