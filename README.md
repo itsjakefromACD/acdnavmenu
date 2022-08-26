@@ -1,18 +1,22 @@
-# JS Dev Kit for FileMaker Developers
+# Angel City Data JavaScript Navigation Menu for FileMaker Pro/Go
 
 *Develop, Render, and Deploy JavaScript for a FileMaker App*
 
 # This Kit
 ## What it does
-This environment allows a FileMaker developer to start coding their widget and see the results right away in a FileMaker file. Once done developing, the can be inlined and pushed to the FileMaker file for use offline.
+This environment contains a set of tools for Filemaker developers to easily construct a JavaScript-powered navigation menu for custom systems.
 <br/>
-It's a template file, so you can use to start other projects.
+It is a template file, which means you can use it to start new navigation projects.
+<br />
+This environment was originally created from the <a target="blank" href="https://github.com/integrating-magic/js-dev-environment">JSinFM Template</a>, by <a target="blank" href="https://www.integratingmagic.io/">Integrating Magic</a>. I highly recommend you check it out for development of JS widgets for FileMaker.
 ## Consists of
-- A repository template on Github
-- A basic html / JS set up.
-- package.json file for install
-- A FileMaker file to show the widget rendered
-- Scripts to build and upload the inlined code to FileMaker
+- Github Repository Template
+- HTML / JavasCript Setup
+- Tailwind CSS
+- Remix Icon Set
+- Package.json Install
+- A FileMaker File to View and Approve Adjustments
+- Scripts to Build and Upload the Inlined Code to FileMaker
 ## TO GET STARTED Using this file
 1. `npm install`
 2. `npm start`
