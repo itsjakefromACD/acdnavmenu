@@ -13,7 +13,7 @@ const modules = _.flatMapDeep(navModules, getModules);
 window.loadNavigation = (json) => {
 
   const obj = JSON.parse(json);
-
+  console.log(obj);
   const fmModules = obj.data.map(record => {
     const data = record.fieldData;
     const id = data.__kp_Module_ID;
